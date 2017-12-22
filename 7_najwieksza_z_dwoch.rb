@@ -2,7 +2,8 @@ puts "podaj dwie dowolne liczby, aby sprawdzić, która jest większa:"
 x=gets.to_f
 y=gets.to_f
 if x<y
-  puts "Wartość największej liczby wynosi: #{y}"
+  max = x
 else
-  puts "Wartość największej liczby wynosi: #{x}"
+  max = y
 end
+puts "Wartość największej liczby wynosi: #{max}"
